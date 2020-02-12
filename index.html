@@ -2,9 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Lab 2</title>
   </head>
   <body>
-
+    <form method="POST" autocomplete="on" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
+	<fieldset>
+      <legend>Basic Form For Lab 2 ITMD 362</legend>
+        <div>
+          <label>Email: <input type="email" name="email_field" placeholder="Enter your email here"></label>
+        </div>
+        <div>
+          <label>Phone number: <input type="tel" name="tel_field"></label>
+        </div>
+		<div>
+          <label>Date of Birth: <input type="date" name="date_field"></label>
+        </div>
+    </fieldset>
+	<input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+	</form>
   </body>
 </html>
