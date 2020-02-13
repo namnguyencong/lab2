@@ -3,23 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <title>Lab 2</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" media="screen" href="css/style.css" />
   </head>
   <body>
-    <form method="POST" autocomplete="on" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
-	<fieldset>
-      <legend>Basic Form For Lab 2 ITMD 362</legend>
+    <form method="GET" action = "#null" autocomplete="on">
+	<div id ="container">
+	  <fieldset>
+	    <legend>Personal Information</legend>
         <div>
-          <label>Email: <input type="email" name="email_field" placeholder="Enter your email here"></label>
+          <label>Email<input type="email" name="email_field" placeholder="Enter your email"></label>
         </div>
         <div>
-          <label>Phone number: <input type="tel" name="tel_field"></label>
+          <label>Phone number<input type="tel" name="tel_field" placeholder="Enter your phone number"></label>
         </div>
 		<div>
-          <label>Date of Birth: <input type="date" name="date_field"></label>
+          <label>Date of Birth<input type="date" name="date_field"></label>
         </div>
-    </fieldset>
-	<input type="submit" value="Submit">
-	<input type="reset" value="Reset">
+      </fieldset>
+	  <div id = "button">
+	    <input type="submit" value="Submit">
+	    <input type="reset" value="Reset">
+	  </div>
+	</div>
 	</form>
   </body>
 </html>
